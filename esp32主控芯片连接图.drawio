@@ -103,7 +103,7 @@
           <mxGeometry x="0.8551851851851845" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YcuzAs7cK-M9zxSXpuNz-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;ESP32与其他模块引脚连线图&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="269.6" y="120" width="250" height="30" as="geometry" />
+          <mxGeometry x="279.6" y="120" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YcuzAs7cK-M9zxSXpuNz-102" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.486;exitY=0.16;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
