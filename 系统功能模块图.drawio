@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="PGz1YW0kTqPZM6cN3-vh-1" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;&quot;&gt;基于物联网&lt;/font&gt;技术的宿舍&lt;font style=&quot;&quot;&gt;环境监测与预警系统&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="230" width="330" height="60" as="geometry" />
+          <mxGeometry x="260" y="250" width="330" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PGz1YW0kTqPZM6cN3-vh-2" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=south;" vertex="1" parent="1">
           <mxGeometry x="103.75" y="290" width="642.5" height="60" as="geometry" />
