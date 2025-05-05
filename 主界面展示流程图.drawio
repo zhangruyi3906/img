@@ -1,9 +1,199 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="26.2.14">
   <diagram name="第 1 页" id="4QRgnceZi5ASygieHr0k">
-    <mxGraphModel>
+    <mxGraphModel dx="2327" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="CJaRsSwXQ3vRJMb6FHN3-2" target="CJaRsSwXQ3vRJMb6FHN3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-2" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="CJaRsSwXQ3vRJMb6FHN3-4" target="CJaRsSwXQ3vRJMb6FHN3-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-4" value="ESP32串口初始化；&lt;div&gt;配置各引脚输入、输出模式；&lt;/div&gt;&lt;div&gt;OneNET云平台创建产品，配置物模型数据&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="265" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CJaRsSwXQ3vRJMb6FHN3-6" target="CJaRsSwXQ3vRJMb6FHN3-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CJaRsSwXQ3vRJMb6FHN3-6" target="CJaRsSwXQ3vRJMb6FHN3-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-6" value="ESP32无线连接&lt;div&gt;手机WiFi热点&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="85" y="370" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="CJaRsSwXQ3vRJMb6FHN3-10" target="CJaRsSwXQ3vRJMb6FHN3-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CJaRsSwXQ3vRJMb6FHN3-10" target="CJaRsSwXQ3vRJMb6FHN3-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-10" value="ESP32连接OneNET&lt;div&gt;物联网云平台&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="85" y="491.5" width="150" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="CJaRsSwXQ3vRJMb6FHN3-12" target="CJaRsSwXQ3vRJMb6FHN3-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-12" value="OneNET物联网接收JSON数据并解析存储为物模型数据" style="whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="CJaRsSwXQ3vRJMb6FHN3-14" target="CJaRsSwXQ3vRJMb6FHN3-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="CJaRsSwXQ3vRJMb6FHN3-14" target="CJaRsSwXQ3vRJMb6FHN3-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-14" value="后端&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, sans-serif; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font&gt;通过云平台&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, sans-serif; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font&gt;提供的SDK消费数据&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, sans-serif; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font&gt;并存储在数据库&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="285" y="401.5" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CJaRsSwXQ3vRJMb6FHN3-16" target="CJaRsSwXQ3vRJMb6FHN3-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CJaRsSwXQ3vRJMb6FHN3-16" target="CJaRsSwXQ3vRJMb6FHN3-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-16" value="&lt;font&gt;前端&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, sans-serif; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;以RestfulAPI的&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, sans-serif; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;方式发送HTTP请求&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, sans-serif; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;到后端请求数据&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="285" y="265" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-26" value="重连WiFi热点" style="whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-28" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="CJaRsSwXQ3vRJMb6FHN3-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-30" y="470" as="sourcePoint" />
+            <mxPoint x="-30" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-30" y="470" as="sourcePoint" />
+            <mxPoint x="160" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-30" value="重新连接OneNET物联网云平台" style="whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="508" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-33" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="CJaRsSwXQ3vRJMb6FHN3-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-30" y="630" as="sourcePoint" />
+            <mxPoint x="-5" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="630" as="sourcePoint" />
+            <mxPoint x="159.5" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-35" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-31" y="630" as="sourcePoint" />
+            <mxPoint x="159" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CJaRsSwXQ3vRJMb6FHN3-36" target="CJaRsSwXQ3vRJMb6FHN3-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-36" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;&quot;&gt;后端响应前端请求，返回数据&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CJaRsSwXQ3vRJMb6FHN3-38" target="CJaRsSwXQ3vRJMb6FHN3-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CJaRsSwXQ3vRJMb6FHN3-38" target="CJaRsSwXQ3vRJMb6FHN3-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-38" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;&quot;&gt;前端接收数据&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;&quot;&gt;并实时渲染&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="595" y="140" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CJaRsSwXQ3vRJMb6FHN3-40" target="CJaRsSwXQ3vRJMb6FHN3-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-40" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;&quot;&gt;展示宿舍环境数据和设备状态在主界面&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="285" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-44" value="重复请求&lt;div&gt;后端数据&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="354" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CJaRsSwXQ3vRJMb6FHN3-44" target="CJaRsSwXQ3vRJMb6FHN3-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-51" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="780" y="285" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-52" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CJaRsSwXQ3vRJMb6FHN3-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="384" as="sourcePoint" />
+            <mxPoint x="370" y="384" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-57" value="重新从云平台&lt;div&gt;获取数据数据&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="495" y="431.5" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-61" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="544.5" y="540" as="sourcePoint" />
+            <mxPoint x="544.5" y="491.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-62" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="544" y="540" as="sourcePoint" />
+            <mxPoint x="374" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-63" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="384" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-65" value="Y" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="144" y="453" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-66" value="Y" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="536" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-67" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="512" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-68" value="Y" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="326" y="371.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-69" value="Y" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="327" y="235" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-70" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="288" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-71" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="443" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-72" value="Y" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="616" y="241" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-73" value="重新从后端获取数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-76" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="829.5" y="260" as="sourcePoint" />
+            <mxPoint x="829.5" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-77" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="261" as="sourcePoint" />
+            <mxPoint x="660" y="261" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-78" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="164" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
