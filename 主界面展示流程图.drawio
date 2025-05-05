@@ -176,7 +176,7 @@
         <mxCell id="CJaRsSwXQ3vRJMb6FHN3-72" value="Y" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="616" y="241" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-73" value="重新从后端获取数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CJaRsSwXQ3vRJMb6FHN3-73" value="重新从后端获取数据" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="770" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CJaRsSwXQ3vRJMb6FHN3-76" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
