@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="26.2.14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.3">
   <diagram name="第 1 页" id="ZbcOY65-sDuQXQ3uLkRv">
     <mxGraphModel dx="2327" dy="1995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="wmgBXDKQRaq-loNeCHvl-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-260" y="-40" width="900" height="790" as="geometry" />
+          <mxGeometry x="-230" y="-30" width="820" height="770" as="geometry" />
         </mxCell>
         <mxCell id="wmgBXDKQRaq-loNeCHvl-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-130" y="600" width="690" height="120" as="geometry" />
@@ -23,19 +23,19 @@
           <mxGeometry x="-130" y="-7" width="690" height="120" as="geometry" />
         </mxCell>
         <mxCell id="wmgBXDKQRaq-loNeCHvl-9" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;设备端&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-230" y="645" width="60" height="30" as="geometry" />
+          <mxGeometry x="-212" y="645" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wmgBXDKQRaq-loNeCHvl-10" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;边缘端&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-231" y="480" width="60" height="30" as="geometry" />
+          <mxGeometry x="-214" y="480" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wmgBXDKQRaq-loNeCHvl-11" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;云端&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-230" y="336.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="-212" y="336.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wmgBXDKQRaq-loNeCHvl-12" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;后端&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-231" y="198.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="-211" y="198.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wmgBXDKQRaq-loNeCHvl-13" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;前端&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-230" y="38" width="60" height="30" as="geometry" />
+          <mxGeometry x="-209" y="38" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wmgBXDKQRaq-loNeCHvl-17" value="&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Helvetica&quot;&gt;火焰传感器&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-65" y="666.25" width="150" height="45" as="geometry" />
