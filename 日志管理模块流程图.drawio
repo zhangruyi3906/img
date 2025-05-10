@@ -42,17 +42,8 @@
         <mxCell id="ZCl_qdTSrUyLRU7YYzmE-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;是否是操作&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;operate请求&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="250" y="400" width="117.5" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ZCl_qdTSrUyLRU7YYzmE-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZCl_qdTSrUyLRU7YYzmE-10" target="ZCl_qdTSrUyLRU7YYzmE-12" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ZCl_qdTSrUyLRU7YYzmE-10" value="&lt;font&gt;&lt;span style=&quot;color: rgb(64, 64, 64); text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Helvetica&quot;&gt;基于AOP切面&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;color: rgb(64, 64, 64); text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;&quot; face=&quot;Helvetica&quot;&gt;使用@log&lt;/font&gt;&lt;font style=&quot;&quot; face=&quot;Helvetica&quot;&gt;注解&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="ZCl_qdTSrUyLRU7YYzmE-10" value="&lt;div&gt;&lt;font&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;相关操作日志&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;存入数据库中&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="414" y="410" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ZCl_qdTSrUyLRU7YYzmE-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZCl_qdTSrUyLRU7YYzmE-12" target="ZCl_qdTSrUyLRU7YYzmE-16" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ZCl_qdTSrUyLRU7YYzmE-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;相关操作日志&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;存入数据库中&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="414" y="525" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZCl_qdTSrUyLRU7YYzmE-16" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;结束&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="258.75" y="527.5" width="100" height="55" as="geometry" />
@@ -68,6 +59,9 @@
         </mxCell>
         <mxCell id="ZCl_qdTSrUyLRU7YYzmE-24" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Y&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="355" y="415" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TdLiL8DuuPUh42vBc2t1-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZCl_qdTSrUyLRU7YYzmE-10" target="ZCl_qdTSrUyLRU7YYzmE-16">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
