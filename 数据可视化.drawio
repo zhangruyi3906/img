@@ -46,7 +46,7 @@
         <mxCell id="PWG7MVSQYjs1RkE0XGg9-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PWG7MVSQYjs1RkE0XGg9-63" target="PWG7MVSQYjs1RkE0XGg9-65">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PWG7MVSQYjs1RkE0XGg9-63" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 16px;&quot;&gt;后端响应前端请求，返回数据&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="PWG7MVSQYjs1RkE0XGg9-63" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 16px;&quot;&gt;后端响应前端&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 16px;&quot;&gt;请求，返回数据&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="355" y="370" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PWG7MVSQYjs1RkE0XGg9-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PWG7MVSQYjs1RkE0XGg9-65" target="PWG7MVSQYjs1RkE0XGg9-69">
